@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdtprojectproperties>
+<section name="org.eclipse.cdt.internal.ui.wizards.settingswizards.IncludePaths">
+<language name="C++ Source File">
+<includepath>/usr/include/QtCore</includepath>
+<includepath>/usr/include/QtCrypto</includepath>
+<includepath>/usr/include/QtDesigner</includepath>
+<includepath>/usr/include/QtDBus</includepath>
+<includepath>/usr/include/QtDeclarative</includepath>
+<includepath>/usr/include/QtGui</includepath>
+<includepath>/usr/include/QtHelp</includepath>
+<includepath>/usr/include/QtMultimedia</includepath>
+<includepath>/usr/include/QtNetwork</includepath>
+<includepath>/usr/include/QtOpenGL</includepath>
+<includepath>/usr/include/QtScript</includepath>
+<includepath>/usr/include/QtScriptTools</includepath>
+<includepath>/usr/include/QtSql</includepath>
+<includepath>/usr/include/QtSvg</includepath>
+<includepath>/usr/include/QtTest</includepath>
+<includepath>/usr/include/QtUiTools</includepath>
+<includepath>/usr/include/QtWebKit</includepath>
+<includepath>/usr/include/QtXml</includepath>
+<includepath>/usr/include/QtXmlPatterns</includepath>
+
+</language>
+<language name="C Source File">
+
+</language>
+<language name="Object File">
+
+</language>
+<language name="Assembly Source File">
+
+</language>
+</section>
+</cdtprojectproperties>
