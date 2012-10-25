@@ -24,6 +24,7 @@ alias reboot='sudo reboot'
 alias shutdown='sudo shutdown -h now'
 alias halt='shutdown'
 alias makelog='make > make.log 2>&1'
+alias np='geany'
 
 function mkcd() { mkdir "$1" && cd "$1"; }
 function mkmine() { sudo chown -R ${USER} ${1:-.}; }
