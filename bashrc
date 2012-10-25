@@ -75,6 +75,3 @@ export GIT_PS1_SHOWUNTRACKEDFILES="true"
 
 # Version affichant la branche git actuelle à la fin de l'en-tete bash
 PS1='\e[1;0m\u@\h \e[1;1m\e[1;37m\w\e[1;0m$(__git_ps1 " (\e[1;1m\e[1;33m%s\e[1;0m)")\n\$ '
-
-echo 'Citation :'
-fortune -e linuxcookie linux
