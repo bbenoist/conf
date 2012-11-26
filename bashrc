@@ -10,6 +10,7 @@
 export EDITOR="nano"
 
 # Définition des alias
+alias sudo='sudo ' # Permet d'utiliser les alias avec sudo
 alias cd.='cd ..'
 alias cd..='cd ..'
 alias rm='rm -i'
@@ -25,6 +26,10 @@ alias shutdown='sudo shutdown -h now'
 alias halt='shutdown'
 alias makelog='make > make.log 2>&1'
 alias np='geany'
+
+#ArchLinux Aliases
+#alias pacman='pacman-color'
+#alias arch-update='pacman -Syu&&yaourt -Syua'
 
 function mkcd() { mkdir "$1" && cd "$1"; }
 function mkexec() { chmod +x "$1"; }
@@ -63,7 +68,10 @@ function extract () {
 export PATH=$PATH:~/scripts
 
 # Sources
-source /usr/share/git/completion/git-prompt.sh
+# ArchLinux
+#source /usr/share/git/completion/git-prompt.sh
+# NixOS
+source /var/run/current-system/sw/share/git/contrib/completion/git-prompt.sh
 
 # Affiche un * à côté de la branche si des changements non commités sont
 # présents ou affiche un + si tous les changements ont étés notifiés mais non
