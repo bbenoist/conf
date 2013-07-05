@@ -7,7 +7,7 @@
 
 # Permet d'utiliser directement nano lors d'un appel de yaourt
 # Peut être remplacé par le nom de l'éditeur alternatif à utiliser
-export EDITOR="nano"
+export EDITOR="vim"
 
 # Définition des alias
 alias sudo='sudo ' # Permet d'utiliser les alias avec sudo
@@ -67,12 +67,6 @@ function extract () {
 
 export PATH=$PATH:~/scripts
 
-# Sources
-# ArchLinux
-#source /usr/share/git/completion/git-prompt.sh
-# NixOS
-source /var/run/current-system/sw/share/git/contrib/completion/git-prompt.sh
-
 # Affiche un * à côté de la branche si des changements non commités sont
 # présents ou affiche un + si tous les changements ont étés notifiés mais non
 # commités
@@ -84,3 +78,6 @@ export GIT_PS1_SHOWUNTRACKEDFILES="true"
 
 # Version affichant la branche git actuelle à la fin de l'en-tete bash
 PS1='\e[1;0m\u@\h \e[1;1m\e[1;37m\w\e[1;0m$(__git_ps1 " (\e[1;1m\e[1;33m%s\e[1;0m)")\n\$ '
+
+# Required by xming hardware OpenGL
+export LIBGL_ALWAYS_INDIRECT=1
