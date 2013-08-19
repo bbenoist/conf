@@ -1,1 +1,4 @@
-source /var/run/current-system/sw/share/git/contrib/completion/git-prompt.sh
+source `which git | sed 's|\(.*\)/.*|\1|'`/../share/git/contrib/completion/git-prompt.sh
+
+alias nix-list-user-pkgs="nix-env -q '*'"
+alias nix-update-user-pkgs="nix-env -u '*'"
