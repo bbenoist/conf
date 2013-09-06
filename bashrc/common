@@ -63,6 +63,10 @@ function extract () {
 
 export PATH=$PATH:~/scripts
 
+# Dossiers de recherche de cd
+# http://theunixtoolbox.com/cdpath/
+export CDPATH=.:~:~/src:$CDPATH_POST
+
 # Affiche un * à côté de la branche si des changements non commités sont
 # présents ou affiche un + si tous les changements ont étés notifiés mais non
 # commités
