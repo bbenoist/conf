@@ -1,0 +1,6 @@
+source `which git | sed 's|\(.*\)/.*|\1|'`/../share/git/contrib/completion/git-prompt.sh
+
+alias nix-list-user-pkgs="nix-env -q '*'"
+alias nix-update-user-pkgs="nix-env -u '*'"
+
+export CDPATH_POST=$CDPATH_POST:~/nixsrc
