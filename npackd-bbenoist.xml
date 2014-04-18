@@ -1,0 +1,15 @@
+<root>
+  <spec-version>2</spec-version>
+  <package name="bbenoist.minimal">
+    <title>bbenoist minimal</title>
+    <url>http://npackd.hydrocean.fr/</url>
+    <description>Minimal package selection by and for bbenoist</description>
+  </package>
+  <version name="1" package="bbenoist.minimal" type="one-file">
+    <dependency package="net.sourceforge.NotepadPlusPlus" versions="[6.3.2, 7)" />
+    <dependency package="org.7-zip.SevenZIP64" versions="[9.20, 10)" />
+    <dependency package="uk.org.greenend.chiark.sgtatham.Putty" versions="[0.62, 1)" />
+    <dependency package="com.skype.Skype" versions="[6.3.0.105, 7)" />
+    <dependency package="org.filezilla-project.FileZillaClient" versions="[3.6.0.2, 4)" />
+  </version>
+</root>
