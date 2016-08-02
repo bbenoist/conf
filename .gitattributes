@@ -1,0 +1,5 @@
+# Auto detect text files
+* text=auto
+
+# Force correct line endings for shell script files.
+bashrc/* diff=bash text=auto eol=lf
