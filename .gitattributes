@@ -2,4 +2,5 @@
 * text=auto
 
 # Force correct line endings for shell script files.
-bashrc/* diff=bash text=auto eol=lf
+*.bashrc diff=bash text=auto eol=lf
+inputrc diff=text text=auto eol=lf
