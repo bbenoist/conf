@@ -1,7 +1,0 @@
-[user]
-	name = Baptist BENOIST
-	email = baptist.benoist@hydrocean.fr
-[url "ssh://bbenoist@192.168.1.199:29418"]
-	insteadOf = "ssh://gerrit"
-[core]
-	excludesfile = ~/conf/git/gitignore-global

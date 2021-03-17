@@ -1,3 +1,0 @@
-alias pacman='pacman-color'
-alias arch-update='pacman -Syu&&yaourt -Syua'
-source /usr/share/git/completion/git-prompt.sh
