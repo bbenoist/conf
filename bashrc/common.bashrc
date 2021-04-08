@@ -94,3 +94,6 @@ export PROMPT_COMMAND='__prompt_command'
 export GIT_PS1_SHOWDIRTYSTATE=1
 export GIT_PS1_SHOWUNTRACKEDFILES=1
 export GIT_PS1_SHOWCOLORHINTS=1
+
+# Limit the size of the path to 3 directories.
+export PROMPT_DIRTRIM=3
