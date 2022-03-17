@@ -11,5 +11,5 @@
 [difftool "vscode"]
         cmd = code --wait --diff --new-window $LOCAL $REMOTE
 [user]
-	email = baptist.benoist@idviu.com
+	email = bbenoist@users.noreply.github.com
 	name = Baptist BENOIST
